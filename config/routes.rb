@@ -9,7 +9,6 @@ Rails.application.routes.draw do
     root to: 'tasks#index'
     
     get 'signup', to: 'users#new'
-    get 'user', to: 'tasks#index'
     
     get 'login', to: 'sessions#new'
     post 'login', to: 'sessions#create'
